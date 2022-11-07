@@ -66,13 +66,17 @@ input::placeholder{
     margin-bottom: 0rem;
 }
 
-input:hover{
-    border: none;
-}
-
 .name{
     display: flex;
     justify-content: space-between;
+}
+
+.name input{
+    width: 16rem;
+}
+
+input:hover,input:focus, textarea:focus{
+    outline: none;
 }
 
 textarea{
@@ -81,6 +85,7 @@ textarea{
     border: none;
     border-bottom: 0.1rem solid #8f8d8c;
 }
+
 
 .proceed{
     width: 30%;
